@@ -20,9 +20,12 @@
     </header>
     <main>
         <section class="section1-container">
-            <div class="image-div" style="position: relative;">
-                <img src="./images/person.png" alt="" >
+            
+            <div  style="position: relative;">
+                <div class="image-div"></div>
+                <img style="z-index: 1000; position:absolute"  src="./images/person.png" >
             </div>
+
             <div class="image-description">
                 <h3 class="image-h3">My failures of <br> previous year</h3>
                 <p class="image-p">Contrary to popular belief, Lorem Ipsum is not <br> simply random text. It has roots in a piece of <br>classical Latin literature from 45 BC, making it over <br>2000 years old. Richard Mc Clint ock.</p>
@@ -54,15 +57,44 @@
                 
             </div>
         </section>
-        <section class="section2-container">
-    
-      
-        <img src="./images/gradient2.png" alt="">
-       <div class="sec2-divtext"> <h3>Always keep a positive mindset</h3>
-        <button>call Now</button></div>
+
+        <!-- sec3 starts -->
+
+        <section class="section3-container">
+      <!-- <img src="./images/gradient2.png" alt=""> -->
+      <div class="sec3-divtext"> <h3 class="sec3-h3">Always keep a positive <br> mindset</h3>
+         <button class="sec3-btn">Call Now</button></div>
+              <!--<div class="sec3-divtext"></div> -->
         
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer-container">
+        <div>
+            <h3 style="font-size: 40px; font-weight: 700;">Future</h3>
+
+            <div class="footer-div-text">
+            <div class="footer-div-p"><p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration in some <br> form, by injected humour, or randomized words</p></div>
+            <div style="margin-bottom: 10px ;">Email: aminulhaquemonna@gmail.com</div>
+            <div style="margin-bottom: 10px ;">Phone : 01500 00 00 00</div></div>
+            <div class="footer-icon">
+               <a href="https://www.facebook.com/tmr.abbu02" target="_blank"> <img src="./images/icons/fb.png" alt=""></a>
+                <a href="https://twitter.com/RafsanulM" target="_blank"><img src="./images/icons/twitter.png" alt=""></a>
+              <a href="https://youtu.be/S-pUGG6R-Fo" target="_blank">  <img src="./images/icons/youtube.png" alt=""></a>
+            </div>
+
+        </div>
+
+        <!-- input div starts -->
+
+        <div>
+            <div><h4 style="font-size: 40px; font-weight: 700;">Subscribe</h4></div>
+           <div ><form action="" >
+
+                <input class="footer-form-div" type="email" name="" id="" placeholder="Enter your email"><br>
+                <button id="end-btn" class="sec3-btn">Subscribe</button>
+            </form></div>
+           
+        </div>
+    </footer>
 </body>
 </html>

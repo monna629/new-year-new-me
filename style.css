@@ -8,7 +8,8 @@
       
       /* width: 2000px; */
         height: 100vh;
-        background: url('./images/banner/banner1.png'); 
+        background: url('./images/banner/banner1.png') ,linear-gradient(280deg,rgba(225, 137, 102, 0.914),rgb(222, 222, 91),transparent); 
+       background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -53,7 +54,7 @@ color: aliceblue;
    
 } */
 
-/* main section starts */
+/* main section1 starts */
 .section1-container{
 display: flex;
 justify-content: space-around;
@@ -70,21 +71,24 @@ li::before {
 margin-right: 10px;
 margin-left: -25px;}
 .image-div{
-    margin-top:140px;
+    margin-top:138px;
                 margin-bottom:160px;
-   /* width: 500px;
-   height: 500px; */
+   width: 520px;
+   height: 520px;
    
     border-radius: 50%;
-background: rgba(241, 91, 34, 0.20) linear-gradient(45deg,rgba(190, 142, 186, 0.589),rgba(212, 101, 26, 0.671) );
+background: rgba(241, 93, 34, 0.347) linear-gradient(45deg,rgba(190, 142, 186, 0.589),rgba(212, 101, 26, 0.671) );
 background-blend-mode:multiply;
 /* background-position:bottom,right; */
 position: absolute;
+top: 65px;
+left: 20px;
 
 }
 .image-description{
-    margin-top: 370px;
-    margin-bottom: 214px;
+    margin-top: 310px;
+    margin-bottom: 300px;
+    padding-bottom: 50px;
 }
 .image-h3{
     font-size: 40px;
@@ -96,7 +100,7 @@ font-weight: 500;
 padding-top: 10px;
 padding-bottom: 10px;
 }
-/* plan section starts */
+/* plan section2 starts */
 .section2-h3{
     font-size: 50px;
     font-weight: 700;
@@ -122,29 +126,88 @@ font-weight: 700;
     justify-content: space-around;
     margin: 50px 200px;
 }
-/* section2 starts */
-.section2-container{
+/* section3 starts */
+.section3-container{
     margin-top: 130px;
     margin-left: 390px;
     margin-right: 390px;
-    /* margin-bottom: 130px; */
-    
+    margin-bottom: 130px;
+    height: 300px;
+    width:1100px;
     /* height: 50vh; */
     
     border-radius: 8px;
     /* background-color: #F15B22;
    background:  linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00)); */
-   background-image: url('./images/watch.png')   ;
+   background-image: url('./images/watch.png'),linear-gradient(90deg,rgba(212, 108, 67, 0.863),transparent)   ;
+   background-blend-mode: overlay;
    background-repeat: no-repeat;
    box-shadow: 5px 8px 20px 10px #423f3f28;
+   /* padding: 60px 600px 145px 65px; */
  
+ }
+/* .sec3-divtext{
+    position: absolute;
+} */
+.sec3-h3{
+    color: #FFF;
   
-
-    
-    
-
+    font-size: 30px;
+  
+    font-weight: 700;
+    line-height: normal;
+}
+.sec3-btn{
+    background-color: #FFF;
+    color: #F15B22;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+}
+.sec3-divtext{
+   padding: 65px 600px 145px 65px;
+ 
+}
+/* footer section starts */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #FFF;
+    height: 550px;
+    padding-top: 130px;
+}
+div .footer-icon{
+    padding-right: 20px;
+}
+.footer-div-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-div-p{
+ margin-bottom: 20px;
+}
+div .footer-form-div{
+    border-radius: 8px;
+border: 1px solid #FFF;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+background-color: rgba(0, 0, 0, 0.899);
+width: 300px;
+height: 60px;
+/* margin: 22px 150px 22px 22px ; */
+padding-left: 30px;
+margin: 30px 0px;
 
 }
-.sec2-divtext{
-    position: absolute;
+#end-btn{
+    width: 150px;
+    height: 60px;
 }
